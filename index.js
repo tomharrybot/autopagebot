@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 const VERIFY_TOKEN = 'pagebot';
-const INTERNAL_API_BASE = 'https://github.com/wedfhujkkmhhgg233/databasefbpage'; // Put your Own Database Url here use https://github.com/wedfhujkkmhhgg233/databasefbpage
+const INTERNAL_API_BASE = 'https://autopagebot-p7gv.onrender.com'; // Put your Own Database Url here use https://github.com/wedfhujkkmhhgg233/databasefbpage
 
 // Edit Also the handlemessage Database Url
 app.get('/webhook', (req, res) => {
